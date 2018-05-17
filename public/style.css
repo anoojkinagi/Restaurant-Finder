@@ -1,0 +1,722 @@
+
+
+/* #restdetail {
+    background: whitesmoke;
+
+}
+
+#restdetail .resthead{
+    background: #d32323 url(stars.png);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    padding:20px;
+  margin-top:-40px;
+  margin-left:-32px;
+  margin-right:-38px;
+}
+
+
+#restdetail .comment{
+    margin-left:-350px;
+    margin-right:600px;
+}
+
+#restdetail .addcomment{
+    margin-left:600px;
+    margin-right:900px;
+}
+
+
+#restdetail .restcontainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+.labels {
+    color: white;
+    background-color: red;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 30px;
+    white-space: nowrap;
+  }
+
+/* form {
+   
+    margin-right:300px;
+  
+    width:80%;
+} */
+
+/* #restolist .resthead{
+    background: #d32323 url(stars.png);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    padding:20px;
+  margin-top:-40px;
+  margin-left:-32px;
+  margin-right:-38px;
+}
+
+#restolist {
+    background: whitesmoke;
+}
+
+#restolist .restcontainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+
+
+/* .subButton{
+padding: 8px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:whitesmoke;
+font-style: inherit;
+font-size: 15px; 
+margin-top:15px;
+margin-right: 210px;
+margin-left: 100px;
+} */
+  
+/* #signupPG{
+        background: whitesmoke;
+        margin-top:120px;
+}
+
+#signupPG .bord{
+    border: 1px solid grey;
+    margin-left:170px;
+    padding:20px;
+    border-radius: 30px;
+    margin-right: 290px;
+}
+#signupPG .enter{
+    margin-left: -60px;
+    margin-right:20px;
+    color:Black;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* input[type=text], input[type=password] {
+    width: 34%;
+    padding: 20px ;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 45px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+} */
+
+/* button {
+    background-color: #4CAF50;
+    background-repeat:no-repeat;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 18%
+} */
+body{
+    /* background-image: url("resto1.jpg");       */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-x: 50%;
+    background-position-y: -1%;
+    background-color: rgb(240, 240, 240)
+    
+    
+}
+
+/* Add a hover effect for buttons */
+/* button:hover {
+  
+	background-color:#4CAF50;
+	
+
+} */
+/* a.signup{
+    text-align: center;
+    margin-right:120px;
+    margin-left: 140px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+  .container {
+    padding: 15px;
+   
+} */
+
+/*ANOOJ*/
+
+.navbar{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+
+.navhr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.restheader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avgrate{
+    /* margin-left: 1200px; */
+     
+     /* background-color: red;
+    float: right;
+    margin-right: 30px;
+    height: 60px;
+    width: 60px;
+    align-content: center;
+    padding-left: 10px; */
+    background: #3F7E00;
+    
+    border-color: #3F7E00!important;
+    width: 100px;
+    margin-right: 20px; 
+    height: 50px;
+    float: right;
+    border-radius: .28571429rem;
+    color: rgb(236, 222, 222);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.timing p
+{
+    line-height: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cuisine{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+.cusineserved{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#map{
+    height: 300px;
+    width: 600px;
+    border: 2px solid firebrick;
+    float: right;
+    margin-right: 100px;
+}
+
+#commentsection{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.commentbox{
+    width: 80%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#reviewsection {
+     /* border: 2px solid red;  */
+         margin-top: 50px;
+         border-radius: 10px;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#commentsection{
+    border: 2px solid rgb(128, 48, 48);
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.onereview{
+   padding: 5px;
+   border: outset;
+   border: 2px  solid rgb(128, 48, 48);
+   width: 80%;
+   border-radius: 10px;
+   margin: 10px;  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+   box-shadow: 2px 2px 2px;
+   /* background-color: white; */
+}
+
+#rating{
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px; 
+}
+
+#addcomment{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #8f2d2d;
+    color: white;
+}
+
+.contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/*ndkjnv*/
+
+.header {
+    /* overflow: hidden; */
+    background: #d32323 url('/public/pics/HeaderRedNoise.png');
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 125px;
+  }
+  
+  .logo1{
+      width:125px;
+      height: 100px;
+      margin-left: 15px;
+      opacity: 1;
+      padding-top:7px;
+      /* padding-bottom: 7px; */
+
+  }
+
+  .home1{
+    width:75px;
+    margin-top: 20px;
+    height: 50px;
+    /* margin-left: 15px; */
+    margin-right: 30px;
+    opacity: 1;
+    padding-top:7px;
+  }
+  .header a {
+    /* float: left; */
+    color: black;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px; 
+    /* line-height: 25px; */
+    border-radius: 4px;
+  }
+  
+  
+   
+   /* .header a:hover {
+    background-color: yellow;
+    color: black;
+  }  */
+  
+   
+  
+  .header-right {
+    float: right;
+  }
+
+  .header-centre{
+      /* text-align: center; */
+      color: black;
+      font-size: 20px;
+      float:right;
+      /* padding-bottom:0px; */
+       margin-right: 270px;
+       margin-top:11px; 
+  }
+
+
+  .dropbtn {
+    background: #d32323;
+    margin-right:14px;
+    /* float:right; */
+    color: rgb(240,240,240);
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    
+    border: 2px solid rgb(240,240,240);
+    cursor: pointer;
+    margin-top:27px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+     display: none; 
+    position: absolute; 
+    right: 0;
+     background-color: #f9f9f9;
+    min-width: 180px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b22222;
+}
+
+
+.signup {
+    background: #fff;
+    padding: 4em 4em 2em;
+    max-width:400px;
+    margin: 50px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    height:470px;
+
+}
+
+.changepass {
+    background: #fff;
+    padding: 4em 4em 2em;
+    max-width:400px;
+    margin: 50px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    height:300px;
+
+}
+.headingsu {
+    margin:0 0 50px 0;
+    padding:10px;
+    text-align:center;
+    font-size:30px;
+    color:darken(#e5e5e5, 50%);
+    border-bottom:solid 1px #e5e5e5;
+  }
+
+  .inputboxsu[type="text"],
+  .inputboxsu[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    padding: 4px;
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+  }
+  
+  .inputboxsu[type="text"]:focus,
+  .inputboxsu[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+  }
+  
+  .subButtonsu {
+    margin-top: 8px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+  }
+  
+  .subButtonsu:hover,
+  .subButtonsu:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  
+  /* .subButtonsu:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  } */
+
+
+/* .containerSU{
+    width: 90%;
+    height: 95%;
+} */
+
+.header-SL{
+    /* text-align: center; */
+    color: black;
+    font-size: 20px;
+    float:right;
+    /* padding-bottom:0px; */
+     margin-right: 500px;
+     margin-top:11px; 
+}
+
+
+
+.home{
+    float:right;
+}
+
+.hc{
+    text-align: center;
+    
+    padding-top:27px;
+}
+
+.logo{
+    float: left;
+}
+
+/*Omkar*/
+
+#list{
+    background-color:rgb(240, 240, 240)
+}
+
+
+#list .headname{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left:600px;
+    ;
+}
+
+#list .restname{
+    color:#ee0000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#list .rating{
+   
+    margin-top: -50px;
+   
+    float: right;
+    width: 6%;
+    border:1px solid;
+    border-radius: 6px;
+    height: 30px;
+    color:#ffffff;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #3F7E00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#list .post{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:17px;
+    color:#767676;
+    padding:20px;
+    border-style:outset;
+    margin-top:25px;
+    margin-right:280px;
+    margin-left:200px;
+    background-color:#ffffff; 
+}
+
+#login{
+    background-color:rgb(240, 240, 240);
+}
+
+#login .loginpg{
+    margin-left:320px;
+    font-size:40px;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#login .sign{
+ padding:20px;
+ font-size:18px;
+ /* margin-left:120px; */
+ color:teal   
+}
+
+#login .icon{
+    height:100px;
+	width:100px;
+	margin:auto;
+	background-color:darkslategray;
+	margin-bottom:15px;
+	border-radius:50%;
+	padding:10px;
+	
+}
+ 
+
+#login .error{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    /* margin-left:-30px;  */
+    font:bold;
+    color:black;
+}
+
+#login .enter1{
+    width:340px;	
+	max-width:100%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius:4px;
+    padding:21px;
+    text-align: center;
+    background-color:white;
+     margin-left:550px; 
+     margin-top: 100px;   
+    height:460px;
+}
+input[type=text], input[type=password] {
+    width:80%;
+    font-size:18px;
+    margin-bottom: 12px;
+     /* margin-left:10px;   */
+	border:-1px solid ;	
+	padding:15px;
+	position:relative;
+}
+
+#login .subButton{
+color:white;
+background-color:teal;
+border:outset;
+border-radius:7px;
+width:40%;
+height:13%;
+margin-top:10px;
+/* margin-left:100px; */
+}
+
+#login .subButton:hover{
+    opacity: 0.8;
+}
+
+
+/*Vignesh*/
+
+.containerfilter .goButton {
+    background-color: teal;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: 14px;
+    border-radius: 20px;
+   
+    
+    width: 18%;
+    
+    padding: 1%;
+
+}
+
+.containerfilter .goButton:hover {
+    opacity: 0.8;
+}
+
+ .filterror{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size:20px;
+ }
+
+.dropdown1{
+    overflow:hidden;
+   width:350px;
+   height: 40px;
+   margin-bottom:40px;
+    margin-left:580px; 
+   display: block;
+    border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px ;
+   background: white ;
+}
+
+.containerfilter{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.messagesu{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold
+}
+
+
+
+ .footer {
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    background:#d32323 url('/public/pics/HeaderRedNoise.png');
+   margin-top: 20px;
+     
+    width:100%;
+    height:40px;   /* Height of the footer */
+   
+   
+ }

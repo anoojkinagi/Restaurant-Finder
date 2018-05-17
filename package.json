@@ -1,0 +1,25 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "seed": "node ./tasks/seed.js"
+  },
+  "author": "Anooj_Kinagi_10429132",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "node-geocoder": "^3.22.0",
+    "node-uuid": "^1.4.8",
+    "requirejs": "^2.3.5",
+    "uuid": "^3.2.1",
+    "xss": "^0.3.8"
+  },
+  "devDependencies": {},
+  "description": ""
+}

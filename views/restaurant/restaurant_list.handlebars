@@ -1,0 +1,55 @@
+
+
+<div class="header">
+
+   
+        
+            <a href="/restaurantfilter" class="logo"><img alt="logo" src="/public/pics/logo1.png" class="logo1"></a>
+
+        
+   <div class="dropdown">
+  <button class="dropbtn" >{{{userauth.profile.firstname}}}</button>
+  <div class="dropdown-content">
+    <a href="/changepassword">Change Password</a>
+    <a href="/logout">Logout</a>
+  </div>
+
+    </div>
+   
+    <a class="home" href="/restaurantfilter"><img alt="logo" src="/public/pics/home.png" class="home1"></a>
+
+    <div class="hc">
+<h1>Treat Yo'Self</h1>
+</div>
+        
+ 
+
+
+
+
+
+</div>
+
+<div id="list">
+
+
+<div class="listbody">
+  
+     {{#each rests}}  
+    <article class="post">
+
+      <h2><a class="restname" href="/restaurant/{{_id}}">{{name}} </a></h2><div class="rating">{{obj.rating}}</div>
+      <p>Description:{{{obj.description}}}</p>
+          Cuisine: {{#each obj.cuisine}}
+                {{this}}
+            {{/each}}    
+                <p>{{obj.state}} , {{obj.city}}</p>
+  
+  
+      
+    </article>
+  {{/each}}
+</div>
+
+
+</div>

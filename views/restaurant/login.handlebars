@@ -1,0 +1,61 @@
+<div class="header">
+
+   
+        
+            <a href="/restaurantfilter" class="logo"><img alt="logo" src="/public/pics/logo1.png" class="logo1"></a>
+
+   
+
+    <div class="hc">
+<h1>Login Page</h1>
+</div>
+        
+ 
+
+
+
+
+</div>
+
+<div id="login">
+
+    
+  
+    <form method="post" id="login-form" action="/restaurantfilter">
+    
+    <div class="enter1">
+        
+        <div class="icon">
+		<svg width="100%" height="100%" viewBox="0 0 24 24">
+			<path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"></path>
+		</svg>			
+	    </div>
+        <label class = "enter" for= "username"></label>
+        <input id="username" class="inputbox" type="text" name="username" placeholder="Enter username" required><br>
+        <label class = "enter" for = "password"></label>
+        <input id = "password" type="password" class= "inputbox" placeholder="Enter Password" name="password" required><br>
+       
+        <button id="subButton" class="subButton" type="submit">Submit</button>
+        <div class="sign">
+        <a href="/signup">Signup</a>
+        
+    <p class="error">{{{message}}}</p>
+        </div>
+        
+        </div>
+    </form>
+
+    <div class="form-group hidden" id="error-container">
+        <div class="alert alert-danger text-goes-here"></div>
+        
+    </div>
+
+    <div class="form-group hidden" id="result-container">
+        <div class="alert alert-success text-goes-here"></div>
+    </div>
+
+    <p class="error">{{{err}}}</p>
+
+
+
+</div>

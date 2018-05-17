@@ -1,0 +1,138 @@
+<div class="header">
+
+   
+        
+            <a href="/restaurantfilter" class="logo"><img alt="logo" src="/public/pics/logo1.png" class="logo1"></a>
+
+        
+   <div class="dropdown">
+  <button class="dropbtn" >{{{userauth.profile.firstname}}}</button>
+  <div class="dropdown-content">
+    <a href="/changepassword">Change Password</a>
+    <a href="/logout">Logout</a>
+  </div>
+
+    </div>
+   
+    
+    <a class="home" href="/restaurantfilter"><img alt="logo" src="/public/pics/home.png" class="home1"></a>
+
+    <div class="hc">
+<h1>Treat Yo'Self</h1>
+</div>
+        
+ 
+
+
+
+
+</div>
+<div class="restheader">
+ 
+   <h1>{{restone.name}} <span class="avgrate">{{restone.obj.rating}}/5</span> </h1> 
+
+  <h2>{{restone.obj.description}}</h2>
+<h3>{{restone.obj.state}}  {{restone.obj.city}}</h3>
+<h3>{{restone.obj.location}}</h3>
+</div>
+<hr>
+ <span id="map">
+       location
+     </span>
+<div class="detail">
+<h3 class="cusineserved">Cuisine Served</h3>
+<div class="cuisine">
+{{#each restone.obj.cuisine}}
+      {{this}}
+            {{/each}}
+  </div>
+  
+<h3 class="time">Hours</h3>
+<div class="timing">
+{{#each restone.obj.timing}}
+ <p>{{this}}</p>
+ {{/each}}
+
+</div>
+<div class="contact">
+  
+  <p><b>Contact Us</b> : {{restone.obj.contact}}</p>
+</div>
+
+     
+     
+</div>  
+ <div id="reviewsection">
+<div id="commentsection">
+    
+     <form id="form-group" method="POST">
+    <label for="comment">What do you think about this place?</label><br>
+     <textarea class="commentbox"  name="comment" id="comment" placeholder="enter comment"></textarea>
+     <br>
+     <label for="rating">Rate Us</label>
+     <select id = "rating" name = "rating" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+
+     <button id="addcomment">Add Review</button>
+
+     </form>
+</div>
+<div>
+   
+   <div id="addreviews">
+       {{#each restone.reviews}}
+     <div class="onereview">
+       <p id="userdetail">{{user}} gave this place {{rating}}/5</p>
+        <p>{{comment}}</p>
+  </div>
+        
+   {{/each}}
+   </div>
+ </div>
+</div>
+ 
+<script>
+
+ function initMap()
+ {
+ 
+  var options ={
+    zoom: 16,
+center: {
+  lat: {{{latit}}},
+  lng:  {{{longit}}}
+}
+}
+
+var map = new google.maps.Map(document.getElementById('map'),options);
+    var marker = new google.maps.Marker({
+    position: {
+  lat: {{latit}},
+  lng:  {{longit}}
+},
+    map: map,
+  
+  });
+
+}
+ 
+   
+
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8tp7SYlxrdXnen7AWbLplRE39wTRqn7A&callback=initMap">
+    </script>
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+      <script>
+          var something =  "{{{userauth.profile.firstname}}}  {{{userauth.profile.lastname}}}"
+      </script>  
+      
+      <script src="/public/xss.js"></script>
+ <script  src="/public/review.js"></script>
+ 

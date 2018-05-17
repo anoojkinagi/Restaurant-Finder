@@ -1,0 +1,62 @@
+
+<div class="header">
+
+   
+        
+            <a href="/restaurantfilter" class="logo"><img alt="logo" src="/public/pics/logo1.png" class="logo1"></a>
+
+        
+   <div class="dropdown">
+  <button class="dropbtn" >{{{userauth.profile.firstname}}}</button>
+  <div class="dropdown-content">
+    <a href="/changepassword">Change Password</a>
+    <a href="/logout">Logout</a>
+  </div>
+
+    </div>
+
+
+
+    <a class="home" href="/restaurantfilter"><img alt="logo" src="/public/pics/home.png" class="home1"></a>
+
+    <div class="hc">
+<h1>Treat Yo'Self</h1>
+</div>
+        
+ 
+
+
+
+</div>
+
+            <form method="post"  id="filterform" action="/restaurantlist" class="containerfilter">
+         
+            <label for="state" class="tag">State: </label>
+            <select id = "state" class="dropdown1" name = "state" onchange="selectCity('state','city')">
+                <option value="">Select State</option>
+                <option value="New York">New York</option>
+                <option value="New Jersey">New Jersey</option>
+            </select>
+      
+
+            <label for="city" class="tag">City: </label>
+            <select id= "city" class="dropdown1" name="city">
+                <option value="">Select City</option>
+            </select>
+            
+            <label for="cuisine" class="tag">Cuisine: </label>
+            <select id = "cuisine" class="dropdown1" name = "cuisine" >
+                <option value="">Select Cuisine</option>
+                <option value="Indian">Indian</option>
+                <option value="American">American</option>
+                <option value="Italian">Italian</option>
+                <option value="Chinese">Chinese</option>
+            </select>
+
+            
+            <br><br>
+            <button class="goButton" onclick="gohere()"> Search </button>
+        </form>
+        
+        <p class="filterror">{{{message}}}</p>
+
