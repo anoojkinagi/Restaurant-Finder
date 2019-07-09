@@ -65,116 +65,7 @@ let exportedMethods = {
 
 
   async addrecipe(title, ingredients,steps) {
-    // if(arguments.length!=3)
-    // {
-    //   throw 'Enter proper arguments'
-    // }
-    // if(title==null && ingredients == null && steps ==null)
-    // {
-    //   throw 'Invalid Input'
-    // }
-    // if(title==undefined || ingredients == undefined || steps==undefined)
-    // {
-    //    throw 'Argument undefined'
-    // }
    
-    // if (typeof title !== "string" || title==null) throw "No title provided";
-    // //if (typeof ingredients !== "Array") throw "I aint got nobody!";
-    // var check = title;
-    // if(check.replace(/\s/g, "").length==0 )
-    // {
-    //    throw 'Title cannot be blank'
-    // }
-    // if (!Array.isArray(ingredients) || ingredients==null) {
-    //   throw 'Ingredients not provided'
-    // }
-    // if(ingredients.length==0)
-    // {
-    //   throw 'ingredients Array Empty'
-    // }
-    // if(ingredients==null)
-    // {
-    //   throw 'ingredients array null'
-    // }
-    // if(steps==null)
-    // {
-    //   throw 'steps array null'
-    // }
-    // if (!Array.isArray(steps)) {
-    //   throw 'Steps not provided'
-    // }
-    
-    // if(steps.length==0)
-    // {
-    //   throw 'steps Array Empty'
-    // }
-    
-    // if(Array.isArray(ingredients))
-    // {
-    //     for(var i=0;i<ingredients.length;i++)
-    //     {
-    //        if(Object.prototype.toString.call(ingredients[i])!='[object Object]')
-    //        {
-    //           throw 'Ingredient Not an Object'
-    //        }
-    //        else
-    //        {
-    //          if(Object.keys(ingredients[i]).length!=2)
-    //          {
-    //            throw 'Invalid number of keys in ingredients'
-    //          }
-    //           if(ingredients[i].name==null || ingredients[i].amount==null)
-    //           {
-                
-    //             throw 'Amount or Name is missing'
-    //           }
-    //           else
-    //           {
-    //              if(!(typeof ingredients[i].name=='string')|| !(typeof ingredients[i].amount=='string'))
-    //               {
-    //                 throw 'Value of Objects in ingredients is not a string'
-    //               }else
-    //               {
-                    
-    //                   var str1 = ingredients[i].name
-    //                   var str2 = ingredients[i].amount
-    //                   //  str1.replace(" ","");
-    //                   //  str2.replace(" ","");
-                       
-    //                    if (str1.replace(/\s/g, "").length==0 || str2.replace(/\s/g, "").length==0) {
-                        
-    //                     throw 'Invalid value for objects in ingredients'
-    //                 }
-    //               }
-                  
-    //           }
-    //        }
-    //     }
-    // }
-    // if(Array.isArray(steps))
-    // {
-    //     for(var i=0;i<steps.length;i++)
-    //     {
-    //        if(typeof steps[i]!=='string')
-    //        {
-    //           throw 'Not a string in steps'
-
-    //        }
-    //        else
-    //        {
-             
-    //            var str1 =steps[i];
-              
-    //             if (!str1.replace(/\s/g, '').length) {
-                 
-    //              throw 'Invalid string for steps'
-    //          }
-    //        }
-
-           
-    //     }
-    // }
-
     return recipes().then(recipeCollection => {
 
       let newrecipe = {
@@ -452,19 +343,7 @@ let exportedMethods = {
 
   async getUserById(id) {
     
-      //  if(id==undefined)
-      //  {
-      //     throw 'Provide id'
-      //  }
-      //  if(id==null)
-      //  {
-      //     throw 'Provide id'
-      //  }
-       
-      //  if(!id)
-      //  {
-      //     throw 'Provide id'
-      //  }
+      
        const userCollection = await users();
        const oneuser = await userCollection.findOne({_id: id});
        if(!(oneuser))
