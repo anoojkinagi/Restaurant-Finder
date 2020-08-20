@@ -10,7 +10,7 @@
   "author": "Anooj_Kinagi_10429132",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^2.0.1",
+    "bcrypt": "^5.0.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "mongodb": "^3.0.4",
